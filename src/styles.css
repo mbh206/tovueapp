@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Signika:wght@300..700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-main: 'Permanent Marker';
+  --font-body: 'Signika';
+}
