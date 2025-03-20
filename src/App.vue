@@ -4,7 +4,7 @@ import TheFooter from './components/TheFooter.vue'
 </script>
 
 <template>
-  <div class="flex flex-col h-screen justify-between font-body">
+  <div class="flex flex-col w-screen h-screen justify-between font-body">
     <TheNavBar />
     <div class="flex bg-gray-400">
       <router-view />
