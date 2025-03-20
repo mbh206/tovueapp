@@ -12,7 +12,7 @@
         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
     </div>
-    <h3 class="text-sky-400 text-5xl text-center my-10">Mark Harris</h3>
+    <h3 class="font-main text-sky-500 text-5xl text-center mt-20 mb-15">Mark Harris</h3>
     <ul class="flex flex-col text-5xl uppercase items-center m-2 gap-8 text-white">
       <li @click="closeMenu" class="active:text-sky-600"><RouterLink to="/">Home</RouterLink></li>
       <li @click="closeMenu" class="hover:text-sky-600">
@@ -22,7 +22,7 @@
         <RouterLink to="/contact">Contact</RouterLink>
       </li>
       <li @click="closeMenu" class="hover:text-sky-600">
-        <a href="https://www.github.com/mbh206" target="_blank">Github</a>
+        <a href="https://www.github.com/mbh206" target="_blank">GitHub</a>
       </li>
       <li @click="closeMenu" class="hover:text-sky-600">
         <a href="https://www.linkedin.com/in/mark-harris/" target="_blank">LinkedIn</a>
